@@ -27,7 +27,7 @@ class TestAccount(unittest.TestCase):
         app.config["DEBUG"] = False
         app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URI
         app.logger.setLevel(logging.CRITICAL)
-        Account.init_db(app)
+        # Account.init_db(app)
 
     @classmethod
     def tearDownClass(cls):
