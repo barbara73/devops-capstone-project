@@ -27,3 +27,4 @@ codecov
 
 # Utilities
 httpie
+Flask-Talisman
