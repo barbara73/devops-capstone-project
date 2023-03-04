@@ -27,3 +27,6 @@ codecov
 
 # Utilities
 httpie
+Flask-Talisman
+Flask-Cors
+
